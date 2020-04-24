@@ -2,6 +2,7 @@
 # Prologue Oscillator Makefile
 # #############################################################################
 
+
 ifeq ($(OS),Windows_NT)
 ifeq ($(MSYSTEM), MSYS)
     detected_OS := $(shell uname -s)
